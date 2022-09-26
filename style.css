@@ -1,0 +1,160 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    font-size: 16px;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    background-color: #8BAAD9;
+}
+ a {
+    text-decoration: none;
+ }
+   
+.first-slide{
+    background-image:url("/images/11stockvault-quadrocopter156696\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    padding-bottom: 260px;
+    background-position: center;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 92px;
+}
+.container{
+    width: 100%;
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 30px 40px;
+    background-color: #ECECEC;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.navbar-menu{
+    list-style: none;
+}
+
+.navbar-menu li{
+    display: inline-block;
+    margin-right: 64px;
+}
+.navbar-menu li a {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.navbar-language a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1E1E1E;
+    margin: 0 11px;
+}
+
+.navbar-profile{
+    margin-left: 60px;
+}
+
+
+/* Main */
+
+.main{
+ margin-top: 112px;
+}
+
+.main-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 48px;
+    color: #1E1E1E;
+    margin-bottom: 28px;
+}
+
+.main-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1E1E1E;
+    line-height: 22.4px;
+    margin-bottom: 60px;
+}
+
+.main-btn{
+    background-color: #BB2F3A;
+    padding: 20px 44px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ECECEC;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+/* About */
+
+.about{
+    background-color: #BB2F3A;
+    display: flex;
+    padding-top: 90px;
+}
+
+.about-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-item{
+    width: 50%;
+    padding: 0 15px; 
+}
+
+.about-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 28px;
+    color: #ECECEC;
+}
+
+.about-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #ECECEC;
+    margin-bottom: 60px;
+}
+
+.about-img{
+    margin-bottom: 40px;
+}
