@@ -28,7 +28,7 @@ body{
  }
    
 .first-slide{
-    background-image:url("/images/11stockvault-quadrocopter156696\ 1.png");
+    background-image:url("./11stockvault-quadrocopter156696\ 1.png");
     background-repeat: no-repeat;
     background-size: 100vw;
     padding-bottom: 260px;
@@ -270,7 +270,7 @@ margin-bottom: 30px;
 /* Delivery */
 
 .delivery{
-    background-image: url(/images/delivery_background.png);
+    background-image: url(./delivery_background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
