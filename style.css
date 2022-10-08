@@ -4,6 +4,9 @@
 	border: none;
 }
 
+html{
+    scroll-behavior: smooth; 
+}
 
 *,
 *::before,
@@ -70,6 +73,10 @@ body{
     color: #1E1E1E;
 }
 
+.navbar-menu li a:hover{
+    color: #BB2F3A;
+}
+
 .navbar-wrap{
     display: flex;
     flex-flow: row nowrap;
@@ -110,14 +117,17 @@ body{
     margin-bottom: 60px;
 }
 
-.main-btn{
+.btn{
     background-color: #BB2F3A;
-    padding: 20px 44px;
+    padding: 25px 44px;
     font-family: 'Ubuntu', sans-serif;
     color: #ECECEC;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 60px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
 }
 
 /* About */
@@ -126,6 +136,7 @@ body{
     background-color: #BB2F3A;
     display: flex;
     padding-top: 90px;
+    height: 100vh;
 }
 
 .about-items{
@@ -157,4 +168,246 @@ body{
 
 .about-img{
     margin-bottom: 40px;
+}
+
+/* Clients */
+
+.clients_title{
+font-family: 'Ubuntu';
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+color: #1E1E1E;
+margin-top: 80px;
+margin-bottom: 30px;
+}
+
+.clients_video{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients_video_item{
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.partners_title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    color: #1E1E1E;
+    margin-bottom: 35px;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.partners_item{
+    width: 33%;
+    margin-bottom: 60px;
+}
+
+/* Review */
+
+.review{
+    background-color: #BB2F3A;
+    margin-top: 120px;
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 160px;
+}
+
+.review_title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #ECECEC;
+    padding-top: 123px;
+    margin-bottom: 30px;
+}
+
+.reviews_item{
+    background: #ECECEC;
+    border-radius: 26px;
+    text-align: center;
+    width: 350px;
+    height: 230px;
+    padding: 28px 29px;
+    margin-bottom: 30px;
+}
+
+.review_name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1E1E1E;
+    margin: 10px 0;
+}
+
+.review_text{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 140%;
+    color: #1E1E1E;
+    text-align: center;
+}
+
+/* Delivery */
+
+.delivery{
+    background-image: url(/images/delivery_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.delivery_title{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #1E1E1E;
+    padding-top: 115px;
+}
+
+.delivery_text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #1E1E1E;
+    margin-top: 28px;
+    margin-bottom: 80px;
+}
+
+.delivery_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.delivery_form-item{
+    margin-bottom: 30px;
+    width: 400px;
+    height: 30px;
+    background-color: transparent;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 7px;
+}
+
+input::placeholder{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(30, 30, 30, 0.35);
+}
+
+.delivery_form-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery_form-input p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+.delivery_form-input a{
+    color: #BB2F3A;
+    cursor: pointer;
+}
+
+.delivey_form-checkbox{
+    margin-right: 10px;
+}
+
+.delivery_btn{
+    text-align: center;
+    
+}
+
+.btn-delivery{
+    background-color: #BB2F3A;
+    padding: 22px 88px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ECECEC;
+    font-size: 25px;
+    font-weight: 700;
+    margin:40px 0 60px 0;
+    border-radius: 4px;
+    text-align: center; 
+    cursor: pointer;
+}
+
+/* Footer */
+.footer{
+    background: #D7D7D7;
+    padding: 32px 160px;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_content-item{
+    width: 30%;
+}
+
+.footer img{
+    margin-bottom: 32px;
+}
+
+.footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1E1E1E;
+    font-weight: 700;
+}
+
+.footer_links{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.footer_links-item{
+    margin: 0 30px 20px 0;
+    text-align: center;
+}
+
+.footer_callback{
+    text-align: right;
+}
+
+.callback_link{
+    padding-bottom: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #1E1E1E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
